@@ -80,7 +80,7 @@ function startPreparingOrder() {
 }
 
 
-// Helper functions - Pure functions - does only one specific task
+// Helper functions - Pure functions - does only one specific task and nothing else 
 
 function updateOrderStatus() {
     return new Promise((resolve, reject) => {
