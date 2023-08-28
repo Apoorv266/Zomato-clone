@@ -61,7 +61,7 @@ function orderAcceptedFrmRestrant() {
 }
 
 
-//  Start preparing order
+//  Start preparing order or not
 function startPreparingOrder() {
     Promise.allSettled([
         updateOrderStatus(),
