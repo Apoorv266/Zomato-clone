@@ -91,7 +91,7 @@ function updateOrderStatus() {
         }, 1500);
     })
 }
-// 
+
 
 function updateMapView() {
     // Fake delay to get data
