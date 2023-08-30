@@ -67,7 +67,8 @@ function startPreparingOrder() {
         updateOrderStatus(),
         updateMapView(),
         // startSearchingForValets(),
-        checkIfValetAssigned()
+        checkIfValetAssigned(),
+        checkIfOrderDelivered()
         // checkForOrderDelivery()
     ]).then(res => {
         console.log("res", res)
@@ -90,7 +91,7 @@ function updateOrderStatus() {
         }, 1500);
     })
 }
-
+// 
 
 function updateMapView() {
     // Fake delay to get data
